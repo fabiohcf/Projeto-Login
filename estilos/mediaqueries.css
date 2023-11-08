@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/*Typical Device Breakpoints*/
+:root {
+    --cor00: #8E45BF;
+    --cor01: #752ABF;
+    --cor02: #D3B3F2;
+    --cor03: #F29F05;
+    --cor04: #F28705;
+}
+
+@media screen and (min-width: 768px ) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(var(--cor02), var(--cor00))
+ 
+    }
+
+    main {
+        width: 700px;
+
+    }
+    
+    div#imagem {
+        display: inline-block;
+        width:200px;
+    }
+    
+    div#login {
+        display: inline-block;
+        float: right;
+        padding: 60px 20px 0px 0px;
+    }
+
+    div#email, div#senha {
+        width: 300px;
+    }
+
+    input#iemail, input#isenha {
+        width: 250px ;
+    }
+
+    input#entrar, input#esqueci {
+        width: 300px;
+    }
+
+
+    
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(var(--cor02), var(--cor01));
+    }
+
+    main {
+        width: 800px;
+    }
+
+    div#imagem {
+        float: right;
+    }
+
+    div#login {
+        padding: 60px 20px 0px 0px;
+    }
+    div#email, div#senha {
+        width: 400px;
+    }
+
+    input#iemail, input#isenha {
+        width: 350px;
+    }
+
+    input#entrar, input#esqueci {
+        width: 400px;
+    }
+    
+}

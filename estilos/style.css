@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+:root {
+    --cor00: #8E45BF;
+    --cor01: #752ABF;
+    --cor02: #D3B3F2;
+    --cor03: #F29F05;
+    --cor04: #F28705;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: var(--cor00);
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    border: 3px double var(--cor01);
+    border-radius: 8px;
+    background-color: var(--cor02);
+
+}
+
+form {
+    margin: auto;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+div#imagem {
+    text-align: center;
+}
+
+div#login{
+    padding: 10px;
+    
+}
+
+div#login p {
+    text-align: center;
+}
+
+div#email, div#senha {
+    display: inline-block;
+    margin: 5px;
+    height: 40px;
+    width: 200px;
+    border: 2px solid var(--cor01);
+    border-radius: 8px;
+}
+
+label {
+    display: inline-block;
+    height: 36px;
+    padding: 5px;
+    width: 46px;
+    background-color:var(--cor00);
+    border-radius: 6px 0px 0px 6px;
+    box-sizing: border-box;
+    
+}
+
+
+input#iemail, input#isenha {
+    height: 40px;
+    width: 150px;
+    border-radius: 0px 8px 8px 0px;
+    transform: translate(0%, -5%);
+    box-sizing: border-box;
+    float: right;
+
+
+}
+
+input#entrar {
+    margin:5px;
+    padding: 5px;
+    height: 40px;
+    width: 200px;
+    font-size: 1.15em;
+    border-radius: 8px;
+    background-color: var(--cor03);
+}
+
+input#entrar:hover {
+    background-color: var(--cor04);
+    color: white;
+    cursor: pointer;
+}
+
+
+input#esqueci {
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    height: 40px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    background-color: lightgray;
+}
+
+input#esqueci:hover {
+    background-color: var(--cor04);
+    color: white;
+    cursor: pointer;
+}
