@@ -12,38 +12,22 @@
 @media screen and (min-width: 768px ) and (max-width: 992px) {
 
     body {
-        background-image: linear-gradient(var(--cor02), var(--cor00))
- 
+        background-image: linear-gradient(var(--cor02), var(--cor00));
     }
 
     main {
         width: 700px;
-
     }
     
     div#imagem {
-        display: inline-block;
-        width:200px;
+        float: left;
     }
     
     div#login {
-        display: inline-block;
         float: right;
+        width: calc(100% - 300px);
         padding: 60px 20px 0px 0px;
     }
-
-    div#email, div#senha {
-        width: 300px;
-    }
-
-    input#iemail, input#isenha {
-        width: 250px ;
-    }
-
-    input#entrar, input#esqueci {
-        width: 300px;
-    }
-
 
     
 }
@@ -62,18 +46,12 @@
     }
 
     div#login {
+        float: left;
+        width: calc(100% - 300px);
         padding: 60px 20px 0px 0px;
     }
-    div#email, div#senha {
-        width: 400px;
-    }
 
-    input#iemail, input#isenha {
-        width: 350px;
-    }
 
-    input#entrar, input#esqueci {
-        width: 400px;
-    }
+
     
 }

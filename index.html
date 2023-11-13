@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/mediaqueries.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-
 </head>
 <body>
     <main>
@@ -22,14 +21,12 @@
                     <input type="email" name="email" id="iemail" placeholder="  E-mail do usuário" required autocomplete="email"></div>
                 <br>
                 <div id="senha"><label for="isenha"><span class="material-symbols-outlined">vpn_key</span></label>
-                    <input type="password" name="senha" id="isenha" placeholder="  Senha" required minlength="8" autocomplete="current-password"></div>
+                    <input type="password" name="senha" id="isenha" placeholder="  Senha" required minlength="8" maxlength="20"  autocomplete="current-password"></div>
                 <br>
                 <input type="submit" id="entrar" value="Entrar"><br>
-                <input type="reset" id="esqueci" value="Esqueci a senha">
-
+                <a href="esqueci.html" id="esqueci" > Esqueci a senha <span class="material-symbols-outlined">mail</span></a>
             </form>
         </div>
     </main>
-    
 </body>
 </html>

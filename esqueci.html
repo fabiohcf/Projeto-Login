@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esqueci a senha</title>
+    <style>
+        :root {
+            --cor00: #8E45BF;
+            --cor01: #752ABF;
+            --cor02: #D3B3F2;
+            --cor03: #F29F05;
+            --cor04: #F28705;
+        }
+
+        body {
+            background-color: var(--cor02);
+        }
+
+ 
+        input#ienviar  {
+            background-color: var(--cor03);
+            cursor: pointer
+        }
+
+        input#ienviar:hover{
+            background-color: var(--cor04);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h2>Recuperar senha</h1>
+        <p>Informe seu e-mail para recuperar a senha:</p>
+        <label for="i"></label>
+        <input type="email" placeholder="seu e-mail">
+        <input type="submit" value="Enviar" name="enviar" id="ienviar">
+    </main>
+</body>
+</html>
